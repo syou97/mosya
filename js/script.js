@@ -43,6 +43,29 @@ window.addEventListener('resize', listener);
 listener();
 
 
+
+
+
+/* const mediaQueryList = window.matchMedia("(min-width:1184px)");
+
+const listener = (event) => {
+  // リサイズ時に行う処理
+  if (event.matches) {
+    $(".menu").removeAttr('style');  //当てたスタイルを外す
+    if ($(".nav-btn").hasClass("active")) {  // ナビが開いていたら
+      $(".nav-btn").toggleClass("active"); 
+    }  // ハンバーガーアイコンを元に戻す
+    console.log('PC用ブレークポイント用処理');
+  }
+};
+
+mediaQueryList.addEventListener("change", listener);
+
+listener(mediaQueryList);
+
+  */
+
+
 /* 
 $(document).ready(function() {
   var checkResize;
